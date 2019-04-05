@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <title>Tourism</title>
+
+<style>
+    body{
+
+      background:url(imagenes/fondo.jpg) no-repeat center center fixed;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size: cover;
+
+        }
+</style>
+</head>
+
+<body> 
+
+    
+    <header class="row blue lighten-1">
+    <br>
+      <div class="col s3 m2">
+        <div class="row right-align">
+
+            <img src="imagenes/chaleco.png" title="Alba D. Ruth" class="perfil"> 
+
+      </div>
+    </div>
+      <div class="nav-content col s9 m10 right-align">      
+      <div class="row"> 
+        <a class="waves-effect waves-light btn blue-grey" href="#"><i class="material-icons left">home</i><span class="hide-on-small-and-down">Home</span></a>
+        <a class="waves-effect waves-light btn blue-grey" href="#"><i class="material-icons left">location_on</i><span class="hide-on-small-and-down">I was here...</span></a>
+        <a class="waves-effect waves-light btn blue-grey" href="#"><i class="material-icons left">grade</i><span class="hide-on-small-and-down">Best Travel</span></a>
+        <a class="waves-effect waves-light btn blue-grey" href="#"><i class="material-icons left">chat_bubble</i><span class="hide-on-small-and-down">Recommendations</span></a>
+
+</div>
+
+    </div>
+    <div class="row"> 
+    <div class="col s12 m9"><span class="white-text text-darken-2 left-align "><h4>First, enjoy you country</h4></span>
+      </div> 
+    </div>
+    </header>
+    
+    
+    
+    <div class="row">
+      <div class="col m1 center-align hide-on-small-and-down">
+        <div><a title="Go to Facebook" class="waves-effect waves-light" href="#"><img src="iconos/facebook.png"></a></div>
+        <div><a title="Go to Instagran" class="waves-effect waves-light" href="#"><img src="iconos/instagram.png"></a></div>
+        <div><a title="Go to Twitter" class="waves-effect waves-light" href="#"><img src="iconos/twitter.png"></a></div>
+        <div><a title="Go to Youtube" class="waves-effect waves-light" href="#"><img src="iconos/youtube.png"></a></div>
+      </div>
+      <div class="col m1 hide-on-small-and-down"></div>
+      <div class="col s12 m11">
+        <div class="row">
+          <div class="col m4">
+            
+            <img class="responsive-img" width="100%" src="imagenes/playacaribe.jpg" title="Playa Caribe">
+            <img class="responsive-img" width="100%" src="imagenes/cayo.jpg" title="Cayo Levantado">
+          </div>
+          <div class="col m4">
+           <img class="responsive-img" width="100%" src="imagenes/elcoral.jpg" title="Autopista del Coral">           
+          </div>
+          <div class="col m4">
+           
+            <img class="responsive-img" width="100%" src="imagenes/terrenas.jpg" title="Las Terrenas">
+           <img class="responsive-img" width="100%" src="imagenes/lasgaleras.jpg" title="Playa Las Galeras">
+           <img class="responsive-img" width="100%" src="imagenes/dudu.jpg"title="Laguna Dudu">
+           
+           
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+    
+      <div class="col m9">
+        
+        <div class="row card">
+          <div class="col m12">
+            <h4>Catalina Island</h4>
+            <div>
+             <img class="materialboxed responsive-img" width="20%" src="imagenes/Catalina.jpg" title="Isla Catalina">
+             <br> 
+             <a class="btn btn-small waves-effect waves-light blue lighten-1" style="border-radius: 15px" href="#"><i class="material-icons right">event</i>July 18th, 2018</a>
+              <a class="btn btn-small waves-effect waves-light blue lighten-1" style="border-radius: 15px" href="#"><i class="material-icons right">location_on</i>Catalina Island, La Romana, Rep. Dom</a>            
+            </div>
+                    
+            
+            <p>
+              Recommended activitties in Catalina Island: snorkeling and diving, given the nature of its translucent waters and that is surrounded by live corals inhabited by colorful fish. Catalina Island is an ideal option for an excursion if you are spending your holydays in La Romana, or for excursions from Punta Cana <br><br>
+            </p>
+          </div>          
+        </div>
+        
+        <div class="row card blue lighten-1 white-text">        
+          
+          <form class="col s12">
+            <h5>Let's leave your comment</h5>
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">person</i>
+                <input id="icon_person" type="text" class="validate">
+                <label for="icon_person">Full Name</label>
+              </div>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">mail</i>
+                <input id="icon_mail" type="tel" class="validate">
+                <label for="icon_mail">E-mail</label>
+              </div>
+            </div>
+            <div class="input-field col s12">
+              <i class="material-icons prefix">comment</i>
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1"><label for="textarea1">Comment</label></label>            
+            </div>
+          </form>     
+              
+              <div class="row">
+                <div class="col s12 m12">
+                  <button class="btn waves-effect waves-light blue-grey" type="submit" name="action" id="enviar">Send<i class="material-icons right">send</i></button>
+                </div>
+              </div>
+              
+        </div>
+                
+      </div>
+      
+      <div class="col s10 m3 offset-s1">
+        
+        <div class="row card">
+          <div class="col m12 center-align" style="padding-top: 5px">
+            <img class="circle" width="50%" src="imagenes/autor.png" title="Alba D. Ruth">
+            <h5>Autor Profile</h5>
+            <div class="divider"></div>         
+            <p>
+              Hi, I'm Ruth. I'm 23 years old. I'm studing Web Development. I like to dance, go on a trip with my friends, listen to music and take a pictures. I love animals, especially dogs. Thank you for came to my tourism blog!!
+            </p>
+          </div>          
+        </div>
+                        
+      </div>
+        
+    </div>
+  
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+
+</body>
+
+
+</html>
